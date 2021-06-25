@@ -1,0 +1,42 @@
+base: keytool -genkey -v -keystore "ruta del key.jks" -keyalg RSA -keysize 2048 -validity 10000 -alias "AliasDeApp"
+
+
+cd C:\Program Files\Android\Android Studio\jre\jre\bin  <-----keytool.exe
+
+keytool -genkey -v -keystore D:/flutter/Proyectos/Proyecto_1/app/key/key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias app
+
+alias: app
+key: 147852369
+
+Nombre:  developer
+unidad Organizacion:  developer
+Organizacion:  developer
+Ciudad: lima
+Provincia: lima
+codigo de pais: 51
+
+
+
+/android/key.properties
+
+storePassword=147852369
+keyPassword=147852369
+keyAlias=app
+storeFile=D:/flutter/Proyectos/Proyecto_1/app/key/key.jks
+
+
+
+Enter: cd [project]
+Run: flutter build appbundle
+(Running flutter build defaults to a release build.)
+
+
+Comandos:
+flutter build appbundle
+flutter build apk
+
+Maxima experiencia del app
+
+flutter run --release
+
+flutter build apk --release
