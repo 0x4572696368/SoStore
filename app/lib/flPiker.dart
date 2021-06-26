@@ -17,8 +17,8 @@ class _FlPikerState extends State<FlPiker> {
   final fn = Fn();
   Future getFilesTest() async {
     const data = [
-      ["titulo", "Erich"],
-      ["apellido", "Echevarria"]
+      ["titulo", "demo"],
+      ["apellido", "demo"]
     ];
 
     List<File> fl = await fn.getFiles();
