@@ -32,17 +32,13 @@ class _MyAppState extends State<MyApp> {
               children: [
                 ListTile(
                   leading: Icon(Icons.access_alarm),
-                  onTap: () {
-                    Navigator.pushNamed(context, 'flpiker');
-                  },
-                  title: Text("File Piker"),
+                  onTap: () {},
+                  title: Text("Item 1"),
                 ),
                 ListTile(
                   leading: Icon(Icons.access_alarm),
-                  onTap: () {
-                    Navigator.pushNamed(context, 'load');
-                  },
-                  title: Text("Load"),
+                  onTap: () {},
+                  title: Text("Item 2"),
                 )
               ],
             ),
