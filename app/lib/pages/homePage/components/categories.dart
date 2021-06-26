@@ -8,14 +8,14 @@ class Categories extends StatefulWidget {
 }
 
 class _CategoriesState extends State<Categories> {
-  List<String> categories = ["Woman", "Men", "Boy", "Girl", "Baby"];
+  List<String> categories = ["All", "Woman", "Men", "Boy", "Girl", "Baby"];
   int selectedIndex = 0;
   @override
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 20),
       child: SizedBox(
-        height: 20,
+        height: 23,
         child: ListView.builder(
             scrollDirection: Axis.horizontal,
             itemCount: categories.length,

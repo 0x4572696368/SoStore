@@ -191,6 +191,7 @@ class _BodyState extends State<Body> {
                                       borderRadius: BorderRadius.circular(16),
                                     ),
                                     child: CachedNetworkImage(
+                                      width: double.infinity,
                                       imageUrl: photos + e["images"][0]["Photo"],
                                       progressIndicatorBuilder: (context, url, downloadProgress) => Container(
                                         child: Center(
